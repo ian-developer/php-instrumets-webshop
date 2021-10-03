@@ -1,0 +1,220 @@
+body{
+	background-color:dimgrey;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+	position: relative;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header, h1{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+#naslov:hover{
+	color: white;
+}
+
+#naslov{
+	color: #4bb0c9;
+	text-decoration: none;
+}
+
+header{
+	position: sticky;
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	float: top;
+	background-color: #111111;
+	padding-left: 40px;
+	z-index: 1;
+}
+
+#search_bar{
+	font-size: medium;
+	float: right;
+	top: 100px;
+	padding: 0px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #4bb0c9;
+	text-decoration: none;
+}
+
+aside ul li a:link{
+	color: black;
+}
+
+aside a:hover, a:active {
+	color: #4bb0c9;
+	text-shadow: black;
+	text-decoration: underline;
+	opacity:1;
+}
+
+#nav1 {
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+	margin-bottom: 0%;
+	padding: 15px;
+}
+
+nav li{
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+}
+
+#content{
+	height: 80%;
+	position: relative;
+}
+
+#images, img{
+	width: 200px;
+}
+
+#kategorije{
+	float: left;
+	text-align: left;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+#kategorije li{
+	padding-bottom: 10px;
+}
+
+aside{
+	position: fixed;
+	float:left;
+	text-align: left;
+	font-size: larger;
+	font-family: verdana;
+	font-size: 12px;
+	background-color: #f2f2f2;
+	border: 1px solid #333;
+	margin-top: 0px;
+	padding: 25px;
+	width: 15%;
+	min-width: 280px;
+}
+
+aside a{
+	color: black;
+}
+
+#main{
+	position: relative;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: transparent;
+	width: 78%;
+	z-index: 0;
+}
+
+.not_found{
+	color: white;
+	text-decoration: none;
+	padding-top: 100px;
+	padding-left: 200px;
+}
+
+#box_proizvod{
+	padding: 15px;
+}
+
+#box_slika{
+	float: right;
+	width: 200px;
+	height: 100px;
+}
+
+#box_tekst{
+	float: left;
+}
+
+#box_input{
+	width: 50px;
+}
+
+#kosarica{
+	margin: 15px;
+	padding: 15px;
+	background-color: #f2f2f2;
+}
+
+#kosarica table p{
+	padding: 15px;
+	text-align: center;
+}
+
+.info{
+	background-color: #f2f2f2;
+	margin: 15px;
+	padding: 15px;
+}
+
+footer{
+	clear: both;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1250px){
+	#main{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 960px){
+	aside{
+		display: inline;
+		width:100%;
+		z-index: 1;
+	}
+
+	aside li{
+		display: inline;
+	}
+	
+	#main{
+		width: 100%;
+		margin: 0;
+		text-decoration: none;
+		min-width: 150px;
+	}
+
+	#box_slika{
+		float: none;
+	}
+
+	#box_tekst{
+		float: bottom;
+	}
+
+}
+
+i{
+	background-color: red;
+}
